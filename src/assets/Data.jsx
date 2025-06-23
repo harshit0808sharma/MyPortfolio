@@ -82,7 +82,7 @@ import Language12 from "./images/MongoDBLogo.jpg";
         img: nextshop,
         projectName: "Next Shop",
         projectDescription: "...",
-        link: "https://chat-app-omega-murex.vercel.app/#/",
+        link: "https://product-gallery-nextjs.vercel.app/",
     },
 ]
 

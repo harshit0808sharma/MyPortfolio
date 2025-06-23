@@ -27,7 +27,7 @@ const Home = ({ theam }) => {
                         <a href="https://www.linkedin.com/in/harshit-sharma9045"><FaLinkedin /></a>
                         {/* <a href="#"><FaYoutube/></a> */}
                     </div>
-                    <a href="/MyPortfolio/Harshit_Resume.pdf" target="_blank" rel="noopener noreferrer" className='btn'>Download CV</a>
+                    <a href="/Harshit_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn">Download CV</a>
                 </div>
                 <div className="home-image">
                     <div className="img-spinner">

@@ -27,6 +27,9 @@ section {
   padding: 6rem 8% 2.5rem 8%;
   color: var(--text-color);
 }
+a{
+  cursor: pointer;
+}
 
 /* ================ light handler ======================= */
 
