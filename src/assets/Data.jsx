@@ -1,8 +1,16 @@
-import img1 from "./images/youtube.jpg"
-import img2 from './images/laptop.jpg'
-import img3 from './images/apps.jpg'
-import img4 from './images/Amazon3dLogo.jpg'
-import img5 from './images/todoImg.jpg'
+// import img1 from "./images/youtube.jpg"
+// import img2 from './images/laptop.jpg'
+// import img3 from './images/apps.jpg'
+// import img4 from './images/Amazon3dLogo.jpg'
+// import img5 from './images/todoImg.jpg'
+import amazon from './images/amazonclone.png'
+import youtube from './images/youtubeclone.png'
+import todo from './images/todoapp.png'
+import foodapp from './images/foodapplication.png'
+import chatapp from './images/chatapp.png'
+import nextshop from './images/nextshop.png'
+import noteapp from './images/noteapp.png'
+
 
 
 import language1 from './images/html.png';
@@ -18,30 +26,63 @@ import Language10 from "./images/CSharpLogo.jpg";
 import Language11 from "./images/AspDotNetCoreLogo.jpg";
 import Language12 from "./images/MongoDBLogo.jpg";
 
+
  export const ProjectData = [
     {
         id: 1,
-        languageId: "2",
-        img: img1,
+        languageId: "1",
+        img: youtube,
         projectName: "Youtube Clone",
         projectDescription: "This Project is primarily focused on recreating the user interface using React Js",
         link: "https://harshit0808sharma.github.io/youtube-clone/",
     },
     {
         id: 2,
-        languageId: "2",
-        img: img4,
+        languageId: "1",
+        img: amazon,
         projectName: "Amazon Clone",
         projectDescription: "Amazon Clone is also focused on recreating the user interface using React Js",
         link: "https://harshit0808sharma.github.io/amazon-clone/",
     },
     {
+        id: 3,
+        languageId: "1",
+        img: noteapp,
+        projectName: "Notes App",
+        projectDescription: "Amazon Clone is also focused on recreating the user interface using React Js",
+        link: "https://harshit0808sharma.github.io/Notes-App/",
+    },
+    {
         id: 7,
-        languageId: "3",
-        img: img5,
+        languageId: "1",
+        img: todo,
         projectName: "ToDo List",
         projectDescription: "...",
         link: "https://harshit0808sharma.github.io/todo-app/",
+    },
+    {
+        id: 8,
+        languageId: "2",
+        img: foodapp,
+        projectName: "Food Ordering Application",
+        projectDescription: "...",
+        link: "https://food-app-ten-sage.vercel.app/",
+    },
+    {
+        id: 9,
+        languageId: "2",
+        img: chatapp,
+        projectName: "Chat Application",
+        projectDescription: "...",
+        link: "https://chat-app-omega-murex.vercel.app/#/",
+    },
+    {
+        id: 10,
+        languageId: "2",
+        img: nextshop,
+        projectName: "Next Shop",
+        projectDescription: "...",
+        link: "https://chat-app-omega-murex.vercel.app/#/",
     },
 ]
 
@@ -102,20 +143,20 @@ export const LanguageData = [
         languageName: "Asp.Net Core",
         skillFill: '80%'
     },
-    // {
-    //     id: "12",
-    //     languageCategory: "2",
-    //     img: language8,
-    //     languageName: "Node Js",
-    //     skillFill: '78%'
-    // },
-    // {
-    //     id: "13",
-    //     languageCategory: "2",
-    //     img: language9,
-    //     languageName: "Express Js",
-    //     skillFill: '80%'
-    // },
+    {
+        id: "12",
+        languageCategory: "2",
+        img: language8,
+        languageName: "Node Js",
+        skillFill: '78%'
+    },
+    {
+        id: "13",
+        languageCategory: "2",
+        img: language9,
+        languageName: "Express Js",
+        skillFill: '80%'
+    },
     {
         id: "20",
         languageCategory: "3",
@@ -123,13 +164,13 @@ export const LanguageData = [
         languageName: "MySql",
         skillFill: '88%'
     },
-    // {
-    //     id: "21",
-    //     languageCategory: "3",
-    //     img: Language12,
-    //     languageName: "Mongo DB",
-    //     skillFill: '80%'
-    // },
+    {
+        id: "21",
+        languageCategory: "3",
+        img: Language12,
+        languageName: "Mongo DB",
+        skillFill: '80%'
+    },
     {
         id: "31",
         languageCategory: "4",
